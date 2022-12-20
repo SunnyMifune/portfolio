@@ -1,6 +1,7 @@
 import React from 'react';
 import "./about.css";
 import Image from "../../assets/avator-2.svg";
+import AboutBox from './AboutBox';
 
 const About = () => {
   return (
@@ -22,7 +23,7 @@ const About = () => {
             <div className="skills_data">
               <div className="skills_titles">
                 <h3 className="skills_name">Development</h3>
-                <span className="skills_number development">90%</span>
+                <span className="skills_number">90%</span>
               </div>
 
               <div className="skills_bar">
@@ -48,12 +49,13 @@ const About = () => {
               </div>
 
               <div className="skills_bar">
-                <span className="skills_percentage"></span>
+                <span className="skills_percentage photography"></span>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <AboutBox />
     </section>
   )
 }
