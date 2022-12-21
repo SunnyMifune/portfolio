@@ -82,7 +82,7 @@
 .about_boxes {
   grid-template-columns: repeat(4, 1fr);
   column-gap: 1.875rem;
-  margin-top: 4.25rem;
+  margin-top: 4.35rem;
 }
 
 .about_box {
