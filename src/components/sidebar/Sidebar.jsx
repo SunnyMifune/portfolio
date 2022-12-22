@@ -4,6 +4,7 @@ import Logo from "../../assets/logo.svg";
 
 const Sidebar = () => {
   return (
+    <>
     <aside className='aside'>
       <a href="#home" className="nav_logo">
         <img src={Logo} alt="" />
@@ -55,7 +56,12 @@ const Sidebar = () => {
         <span className="copyright">&copy; 2022 - 2023.</span>
       </div>
     </aside>
-  )
-}
 
-export default Sidebar
+    <div className="nav_toggle">
+      <i className="icon-menu"></i>
+    </div>
+    </>
+  );
+};
+
+export default Sidebar;
