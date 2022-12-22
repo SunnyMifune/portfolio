@@ -2,7 +2,14 @@ import React from 'react';
 import "./testimonials.css";
 import Image1 from "../../assets/avatar-1.svg";
 import Image3 from "../../assets/avatar-3.svg";
+// import Swiper core and required modules
+import { Pagination } from 'swiper';
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 const data = [
   {
@@ -28,20 +35,28 @@ const Testimonials = () => {
     <section className="testimonials container section">
       <h2 className="section_title">Clients & Reviews</h2>
 
-      <div className="testimonials_container grid">
-        {data.map(({id, image, title, subtitle, comment} => {
+      <Swiper className="testimonials_container grid"
+      // install Swiper modules
+      modules={[Pagination]}
+      spaceBetween={30}
+      slidesPerView={1}
+      loop={true}
+      grabCursor={true}
+      pagination={{ clickable: true }}
+      >
+        {data.map(({id, image, title, subtitle, comment}) => {
           return (
-            <div className="testimonial_item" key={id}>
+            <SwiperSlide className="testimonial_item" key={id}>
               <div className="thumb">
                 <img src={image} alt="" />
               </div>
               <h3 className="testimonials_title">{title}</h3>
               <span className="subtitle">{subtitle}</span>
               <div className="comment">{comment}</div>
-            </div>
+            </SwiperSlide>
           )
-        }))}
-      </div>
+        })}
+      </Swiper>
     </section>
   )
 }
