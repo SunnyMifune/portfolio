@@ -30,7 +30,7 @@ const Contact = () => {
               placeholder='Insert your subject' />
             </div>
 
-            <div className="contact_form-div">
+            <div className="contact_form-div contact_form-area">
               <textarea name="" id="" cols="30" rows="10" className='contact_form-input' placeholder='Write your message'></textarea>
             </div>
 
