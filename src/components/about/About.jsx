@@ -1,6 +1,6 @@
 import React from 'react';
 import "./about.css";
-import Image from "../../assets/avatar-2.svg";
+import Image from "../../assets/selfie.jpg";
 import AboutBox from './AboutBox';
 
 const About = () => {
@@ -14,7 +14,8 @@ const About = () => {
         <div className="about_data grid">
           <div className="about_info">
             <p className="about_description">
-            I am Sunny Mifune, web developer from Taipei, Taiwan. I have rich experience in web site design and building and customization, also I am good at WordPress.
+            I am Sunny Mifune, web developer from Taipei, Taiwan. My interest is listen to classical music and play the violin.
+            Also, I have experience in web site design and backend develope.
             </p>
             <a href="" className="btn">Download CV</a>
           </div>
