@@ -52,6 +52,11 @@
   margin: 0.5rem 0;
 }
 
+.timeline_posit {
+  color: #8b88b1;
+  font-size: var(--small-font-size);
+}
+
 @media screen and (max-width: 1024px) {
   .resume_container {
     grid-template-columns: 450px;
