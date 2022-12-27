@@ -8,6 +8,8 @@ const Card = (props) => {
       <h3 className="timeline_title">{props.title}</h3>
       <span className="timeline_posit">{props.posit}</span>
       <p className="timeline_text">{props.desc}</p>
+      <p className="timeline_text">{props.more}</p>
+      <p className="timeline_text">{props.third}</p>
     </div>
   )
 }
