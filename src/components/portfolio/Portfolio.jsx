@@ -17,11 +17,11 @@ const Portfolio = () => {
       <h2 className="section_title">Recent Works</h2>
 
       <div className="work_filters">
-        <span className="work_item" onClick={() => setItems(Menu)}>Everything</span>
-        <span className="work_item" onClick={() => filterItem("Creative")}>Creative</span>
+        {/* <span className="work_item" onClick={() => setItems(Menu)}>Everything</span> */}
+        {/* <span className="work_item" onClick={() => filterItem("Creative")}>Creative</span>
         <span className="work_item" onClick={() => filterItem("Art")}>Art</span>
         <span className="work_item" onClick={() => filterItem("Design")}>Design</span>
-        <span className="work_item" onClick={() => filterItem("Branding")}>Branding</span>
+        <span className="work_item" onClick={() => filterItem("Branding")}>Branding</span> */}
       </div>
       <div className="work_container grid">
         {items.map((elem) => {
