@@ -42,7 +42,7 @@ const Data = [
     posit: "Logistic Assistant",
     desc: "🔹Create sea or express shipment to send products oversea.",
     more: "🔹Tracking packages if arrive on time and calculating the accounts receivable.",
-    third: "🔹Weekly checking the Amazon FBA system, sometime the system.",
+    third: "🔹Weekly checking the Amazon FBA system, sometime the system will have an error.",
   },
   {
     id: 6,
