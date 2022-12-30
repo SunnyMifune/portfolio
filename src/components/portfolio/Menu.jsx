@@ -1,4 +1,4 @@
-import Work1 from "../../assets/work-1.svg";
+import Work1 from "../../assets/freshout.png";
 import Work2 from "../../assets/work-2.svg";
 import Work3 from "../../assets/work-3.svg";
 import Work4 from "../../assets/work-4.svg";
@@ -9,8 +9,8 @@ const Menu = [
   {
     id: 1,
     image: Work1,
-    title: "Project Management Illustration",
-    category: "Design",
+    title: "Freshout",
+    category: "Ruby on Rails",
   },
   {
     id: 2,
