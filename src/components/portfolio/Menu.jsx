@@ -1,5 +1,5 @@
 import Work1 from "../../assets/freshout.png";
-import Work2 from "../../assets/work-2.svg";
+import Work2 from "../../assets/farmbnb.svg";
 import Work3 from "../../assets/work-3.svg";
 import Work4 from "../../assets/work-4.svg";
 import Work5 from "../../assets/work-5.svg";
@@ -15,8 +15,8 @@ const Menu = [
   {
     id: 2,
     image: Work2,
-    title: "Guest App Walkthrough Screens",
-    category: "Art",
+    title: "Farmbnb",
+    category: "Ruby on Rails",
   },
   {
     id: 3,
