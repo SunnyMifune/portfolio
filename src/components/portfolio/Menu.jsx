@@ -18,33 +18,33 @@ const Menu = [
     title: "Farmbnb",
     category: "Ruby on Rails",
   },
-  {
-    id: 3,
-    image: Work3,
-    title: "Delivery App Wireframe",
-    category: "Branding",
-  },
+  // {
+  //   id: 3,
+  //   image: Work3,
+  //   title: "Delivery App Wireframe",
+  //   category: "Branding",
+  // },
   ,
-  {
-    id: 4,
-    image: Work4,
-    title: "Onboarding Motivation",
-    category: "Design",
-  },
+  // {
+  //   id: 4,
+  //   image: Work4,
+  //   title: "Onboarding Motivation",
+  //   category: "Design",
+  // },
   ,
-  {
-    id: 5,
-    image: Work5,
-    title: "iMac Mockup Design",
-    category: "Creative",
-  },
+  // {
+  //   id: 5,
+  //   image: Work5,
+  //   title: "iMac Mockup Design",
+  //   category: "Creative",
+  // },
   ,
-  {
-    id: 6,
-    image: Work6,
-    title: "Game Store App Concept",
-    category: "Art",
-  },
+  // {
+  //   id: 6,
+  //   image: Work6,
+  //   title: "Game Store App Concept",
+  //   category: "Art",
+  // },
 ];
 
 export default Menu
