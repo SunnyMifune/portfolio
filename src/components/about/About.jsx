@@ -23,8 +23,8 @@ const About = () => {
           <div className="about_skills grid">
             <div className="skills_data">
               <div className="skills_titles">
-                <h3 className="skills_name">Development</h3>
-                <span className="skills_number">90%</span>
+                {/* <h3 className="skills_name">Development</h3>
+                <span className="skills_number">90%</span> */}
               </div>
 
               <div className="skills_bar">
