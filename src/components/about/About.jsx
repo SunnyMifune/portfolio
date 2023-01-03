@@ -34,23 +34,23 @@ const About = () => {
 
             <div className="skills_data">
               <div className="skills_titles">
-                <h3 className="skills_name">UI/UX design</h3>
-                <span className="skills_number">80%</span>
+                {/* <h3 className="skills_name">UI/UX design</h3>
+                <span className="skills_number">80%</span> */}
               </div>
 
               <div className="skills_bar">
-                <span className="skills_percentage ui_design"></span>
+                {/* <span className="skills_percentage ui_design"></span> */}
               </div>
             </div>
 
             <div className="skills_data">
               <div className="skills_titles">
-                <h3 className="skills_name">Photography</h3>
-                <span className="skills_number">60%</span>
+                {/* <h3 className="skills_name">Photography</h3>
+                <span className="skills_number">60%</span> */}
               </div>
 
               <div className="skills_bar">
-                <span className="skills_percentage photography"></span>
+                {/* <span className="skills_percentage photography"></span> */}
               </div>
             </div>
           </div>
