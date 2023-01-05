@@ -15,11 +15,10 @@ const About = () => {
           <div className="about_info">
             <p className="about_description">
             I am Sunny Mifune, web developer from Taipei, Taiwan. My interest is listen to classical music and play the violin.
-            Also, I have experience in web site design and backend develope.
+            Also, I have experience in web site design and backend develope. 1111111111111111111111111111111111111111111111111111
             </p>
             <a href="" className="btn">Download CV</a>
           </div>
-
           {/* <div className="about_skills grid">
             <div className="skills_data">
               <div className="skills_titles">
