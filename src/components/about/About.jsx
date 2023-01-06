@@ -14,8 +14,9 @@ const About = () => {
         <div className="about_data grid">
           <div className="about_info">
             <p className="about_description">
-            I am Sunny Mifune, web developer from Taipei, Taiwan. My interest is listen to classical music and play the violin.
-            Also, I have experience in web site design and backend develope. 1111111111111111111111111111111111111111111111111111
+            I was born and grew up in Taiwan. I love classical music and began violin study since 6 years old. Also, I have joined the Taipei civic symphony orchestra for 9 years!
+            I’m self-motivated, mature, and have a strong sense of responsibility with a positive working attitude.
+            I have an MBA degree from Soochow University, and now came to Tokyo to learn web development and want to have experience in developer position.
             </p>
             <a href="" className="btn">Download CV</a>
           </div>
