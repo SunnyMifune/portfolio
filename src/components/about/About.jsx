@@ -18,7 +18,7 @@ const About = () => {
             I’m self-motivated, mature, and have a strong sense of responsibility with a positive working attitude.
             I have an MBA degree from Soochow University, and now came to Tokyo to learn web development and want to have experience in developer position.
             </p>
-            <a href="" className="btn">Download CV</a>
+            <a href="" className="btn-about">Download CV</a>
           </div>
           {/* <div className="about_skills grid">
             <div className="skills_data">
