@@ -11,12 +11,14 @@ const Menu = [
     image: Work1,
     title: "Freshout",
     category: "Ruby on Rails",
+    link: "http://www.freshout.world/",
   },
   {
     id: 2,
     image: Work2,
     title: "Farmbnb",
     category: "Ruby on Rails",
+    link: "https://farm-bnb.herokuapp.com/",
   },
   // {
   //   id: 3,
@@ -46,5 +48,6 @@ const Menu = [
   //   category: "Art",
   // },
 ];
+
 
 export default Menu
