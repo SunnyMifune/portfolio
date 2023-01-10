@@ -1,6 +1,7 @@
 import React from 'react';
 import "./about.css";
 import Image from "../../assets/selfie.jpg";
+import Resume from "../../assets/Sunny Mifune CV.pdf";
 import AboutBox from './AboutBox';
 
 const About = () => {
@@ -18,7 +19,7 @@ const About = () => {
             I’m self-motivated, mature, and have a strong sense of responsibility with a positive working attitude.
             I have an MBA degree from Soochow University, and now came to Tokyo to learn web development and want to have experience in developer position.
             </p>
-            <a href="" className="btn-about">Download CV</a>
+            <a href={Resume} className="btn-about" target='_blank'>RESUME</a>
           </div>
           {/* <div className="about_skills grid">
             <div className="skills_data">
