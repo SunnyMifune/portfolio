@@ -44,11 +44,11 @@ const Sidebar = () => {
               </a>
             </li> */}
 
-            <li className="nav_item">
+            {/* <li className="nav_item">
               <a href="#contact" className="nav_link">
               <i className="icon-bubble"></i>
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
