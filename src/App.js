@@ -3,6 +3,7 @@ import './App.css';
 import Sidebar from './components/sidebar/Sidebar';
 import Home from './components/home/Home';
 import About from './components/about/About';
+import Skill from "./components/skill/Skill";
 import Resume from './components/resume/Resume';
 import Portfolio from './components/portfolio/Portfolio';
 import Testimonials from './components/testimonials/Testimonials';
@@ -16,6 +17,7 @@ const App = () => {
     <main className='main'>
       <Home />
       <About />
+      <Skill />
       <Resume />
       <Portfolio />
       <Testimonials />
