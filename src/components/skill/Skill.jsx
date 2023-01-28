@@ -1,28 +1,22 @@
 import React from 'react';
 import "./skill.css";
+import Frontend from "./Frontend";
+import Backend from "./Backend";
+import Design from "./Design";
+import Tool from "./Tool";
 
 const Skill = () => {
   return (
     <section className="skill container section" id='skill'>
       <h2 className="section_title">Skills</h2>
-    <table>
-      <tr>
-        <td>
-        <p>HTML</p>
-        </td>
-        <td>
-          <p>🌟🌟🌟🌟</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>CSS</p>
-        </td>
-        <td>
-          <p>🌟🌟🌟🌟</p>
-        </td>
-      </tr>
-    </table>
+      <span className="section_subtitle">Languages and tools I use</span>
+
+      <div className="skill_container grid">
+        <Frontend />
+        <Backend />
+        <Design />
+        <Tool />
+      </div>
     </section>
 )
 }

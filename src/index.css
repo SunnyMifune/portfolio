@@ -154,3 +154,7 @@ img {
 .btn:hover {
   animation: button-push 0.3s linear 1;
 }
+
+/*========== Margenes Bottom ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --mb-1-5: 1.5rem;
