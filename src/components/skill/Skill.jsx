@@ -11,14 +11,14 @@ const Skill = () => {
       <h2 className="section_title">Skills</h2>
       <span className="section_subtitle">Languages and tools I use</span>
 
-      <div className="skill_container grid">
+      <div className="skill_container container grid">
         <Frontend />
         <Backend />
         <Design />
         <Tool />
       </div>
     </section>
-)
+  )
 }
 
 export default Skill

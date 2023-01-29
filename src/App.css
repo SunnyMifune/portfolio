@@ -58,11 +58,8 @@
 
 .section_subtitle {
   display: block;
-  font-size: var(--small-font-size);
+  font-size: var(--normal-font-size);
   margin-bottom: 4rem;
-}
-
-/* .section_title, */
-.section_subtitle {
   text-align: center;
+  font-weight: bold;
 }
