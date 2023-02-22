@@ -26,10 +26,11 @@
 .home_socials {
   display: flex;
   column-gap: 1.75rem;
-  margin: 1.5rem 0;
+  margin: 2rem 0;
   left: 50%;
   right: 50%;
-  transform: translate(35%, -50%);
+  transform: translate(37%, -50%);
+  scale: 1.5;
 }
 
 .home_socials-link {
