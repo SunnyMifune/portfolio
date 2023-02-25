@@ -26,7 +26,8 @@
 .home_socials {
   display: flex;
   column-gap: 1.75rem;
-  margin: 2rem 0;
+  /* margin: 2rem 0; */
+  margin-top: 2rem;
   left: 50%;
   right: 50%;
   transform: translate(37%, -50%);
@@ -44,7 +45,7 @@
 }
 
 .scroll_down {
-  position: relative;
+  /* position: absolute; */
   bottom: 2.5rem;
   left: 0;
   width: 100%;
