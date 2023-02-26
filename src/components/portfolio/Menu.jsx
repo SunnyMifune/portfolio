@@ -1,5 +1,5 @@
-import Work1 from "../../assets/freshout.png";
-import Work2 from "../../assets/farmbnb.svg";
+import Work1 from "../../assets/tan.png";
+import Work2 from "../../assets/bear.png";
 import Work3 from "../../assets/work-3.svg";
 import Work4 from "../../assets/work-4.svg";
 import Work5 from "../../assets/work-5.svg";
