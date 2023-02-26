@@ -15,9 +15,8 @@ const About = () => {
         <div className="about_data grid">
           <div className="about_info">
             <p className="about_description">
-            I was born and grew up in Taiwan. I love classical music and began violin study since 6 years old. Also, I have joined the Taipei civic symphony orchestra for 9 years!
-            I’m self-motivated, mature, and have a strong sense of responsibility with a positive working attitude.
-            I have an MBA degree from Soochow University, and now came to Tokyo to learn web development and want to have experience in developer position.
+            I was born and grew up in Taiwan. I love classical music and began violin study since 6 years old. Also, I have joined the Taipei civic symphony orchestra for 9 years since my freshman year in college.<br></br>
+            I really enjoy designing the page, making the page from 0 to functional brings me a sense of accomplishment, and that's why I am really interested in frontend work.
             </p>
             <a href={Resume} className="btn-about" target='_blank'>RESUME</a>
           </div>
